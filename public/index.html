@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Privacy policy for the Personal Knowledge Wiki read-only Google integration."
+    />
+    <title>Personal Knowledge Wiki — Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #162238;
+        --muted: #5f6b7c;
+        --line: #dfe5ec;
+        --accent: #1668dc;
+        --wash: #f4f8fd;
+        --paper: #ffffff;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, #edf5ff 0, #f8fafc 22rem, #ffffff 44rem);
+        color: var(--ink);
+        font: 16px/1.68 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(760px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 64px 0 88px;
+      }
+
+      header {
+        padding: 0 4px 34px;
+      }
+
+      .mark {
+        display: inline-grid;
+        width: 44px;
+        height: 44px;
+        place-items: center;
+        border-radius: 14px;
+        background: var(--accent);
+        color: white;
+        font-weight: 750;
+        letter-spacing: -0.03em;
+        box-shadow: 0 10px 30px rgba(22, 104, 220, 0.2);
+      }
+
+      h1 {
+        margin: 24px 0 8px;
+        font-size: clamp(2rem, 6vw, 3.25rem);
+        line-height: 1.08;
+        letter-spacing: -0.045em;
+      }
+
+      .summary {
+        max-width: 650px;
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.08rem;
+      }
+
+      article {
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.94);
+        padding: clamp(24px, 5vw, 48px);
+        box-shadow: 0 22px 60px rgba(31, 47, 71, 0.08);
+      }
+
+      h2 {
+        margin: 2.25rem 0 0.45rem;
+        font-size: 1.2rem;
+        line-height: 1.35;
+        letter-spacing: -0.018em;
+      }
+
+      h2:first-of-type { margin-top: 0; }
+
+      p, ul { margin: 0.45rem 0 0; }
+      ul { padding-left: 1.25rem; }
+      li + li { margin-top: 0.4rem; }
+
+      .notice {
+        margin-top: 2rem;
+        padding: 18px 20px;
+        border-left: 4px solid var(--accent);
+        border-radius: 10px;
+        background: var(--wash);
+      }
+
+      a { color: var(--accent); }
+      a:focus-visible { outline: 3px solid #8dbcf7; outline-offset: 3px; }
+
+      footer {
+        padding: 24px 4px 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+
+      @media (max-width: 560px) {
+        main { padding-top: 38px; }
+        article { border-radius: 16px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="mark" aria-hidden="true">PK</div>
+        <h1>Privacy Policy</h1>
+        <p class="summary">
+          Personal Knowledge Wiki is a private, user-controlled system that creates a searchable local index from accounts the user explicitly connects.
+        </p>
+      </header>
+
+      <article>
+        <h2>Who operates this application</h2>
+        <p>
+          Personal Knowledge Wiki is operated by Anuj Goyal for personal and household use. It is not offered as a public software service.
+        </p>
+
+        <h2>Google data the application accesses</h2>
+        <p>
+          The application requests only the read-only Google permissions shown on the Google consent screen. For Gmail, this includes permission to view email messages and settings. It cannot send, modify, or delete email.
+        </p>
+
+        <h2>How Google data is used</h2>
+        <ul>
+          <li>To create and maintain a private, searchable personal knowledge index.</li>
+          <li>To extract text and metadata needed for local search and retrieval.</li>
+          <li>To refresh the index incrementally so it reflects newly available content.</li>
+        </ul>
+        <p>
+          Google user data is not used for advertising, profiling, or sale.
+        </p>
+
+        <h2>Storage and protection</h2>
+        <p>
+          Synced content is stored on computers controlled by the user. OAuth credentials are stored in the operating system's protected credential store. Replicas, when enabled by the user, are encrypted before transfer.
+        </p>
+
+        <h2>AI-assisted retrieval</h2>
+        <p>
+          When the user deliberately asks a connected AI client a question, the local knowledge service may return relevant excerpts to that client. Those excerpts are then handled according to the privacy and data-control settings of the AI service the user chose to invoke. The application does not send Google data to an AI service on its own.
+        </p>
+
+        <h2>Sharing</h2>
+        <p>
+          The application does not sell Google user data or make the private index publicly available. Data is disclosed only when directed by the user, required to provide a user-invoked integration, or required by law.
+        </p>
+
+        <h2>Retention and deletion</h2>
+        <p>
+          Local copies remain until the user deletes them. The user can stop future access by revoking the application's permission in their Google Account, and can delete locally stored content and credentials at any time.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          This policy may be updated when the application's data practices change. The effective date below will be updated when material changes are published.
+        </p>
+
+        <div class="notice">
+          <strong>Contact</strong><br />
+          Questions about this policy can be sent to
+          <a href="mailto:anuj.goel61@gmail.com">anuj.goel61@gmail.com</a>.
+        </div>
+      </article>
+
+      <footer>Effective 7 September 2026</footer>
+    </main>
+  </body>
+</html>
